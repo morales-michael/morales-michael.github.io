@@ -40,22 +40,28 @@ nav {
 .brand-logo {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: var(--navy);
     text-decoration: none;
 }
 
 nav ul { display: flex; gap: 30px; list-style: none; margin: 0; }
-nav a { text-decoration: none; color: var(--navy); font-weight: 700; font-size: 0.75rem; text-transform: uppercase; }
+nav a { 
+    text-decoration: none; 
+    color: var(--navy); 
+    font-weight: 700; 
+    font-size: 0.9rem; /* Increased size */
+    text-transform: uppercase; 
+}
 
-/* HERO BANNERS (Now larger and clearer) */
+/* HERO BANNERS */
 .hero {
     background: linear-gradient(rgba(0, 31, 63, 0.75), rgba(0, 31, 63, 0.75)), 
                 url('https://images.unsplash.com/photo-1544919982-b61976f0ba43?auto=format&fit=crop&w=1500&q=80');
     background-size: cover;
     background-position: center;
     color: var(--white);
-    padding: 140px 20px; /* Increased height to reduce blur/zoom effect */
+    padding: 140px 20px;
     text-align: center;
 }
 
@@ -96,23 +102,26 @@ nav a { text-decoration: none; color: var(--navy); font-weight: 700; font-size: 
     transition: 0.3s ease;
     text-decoration: none;
     color: inherit;
+    display: flex;
+    flex-direction: column;
 }
 
 .card:hover { transform: translateY(-5px); box-shadow: 0 15px 35px rgba(0, 31, 63, 0.15); border-color: var(--navy); }
 
-/* CONNECT BOX */
+/* CONNECT BOX - Centered */
 .contact-box {
     background: var(--white);
     border: 1px solid var(--border);
     padding: 25px;
     border-radius: 8px;
     box-shadow: var(--shadow);
+    text-align: center; /* Center aligned content */
 }
 
 .contact-box h4 {
     margin: 0 0 15px;
     text-transform: uppercase;
-    font-size: 1rem; /* Made larger as requested */
+    font-size: 1rem;
     letter-spacing: 1px;
     color: var(--navy);
 }
