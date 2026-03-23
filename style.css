@@ -40,7 +40,7 @@ nav {
 .brand-logo {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: var(--navy);
     text-decoration: none;
 }
@@ -50,7 +50,7 @@ nav a {
     text-decoration: none; 
     color: var(--navy); 
     font-weight: 700; 
-    font-size: 0.95rem; 
+    font-size: 0.9rem; 
     text-transform: uppercase; 
 }
 
@@ -102,29 +102,25 @@ nav a {
     transition: 0.3s ease;
     text-decoration: none;
     color: inherit;
-    display: flex;
-    flex-direction: column;
 }
 
 .card:hover { transform: translateY(-5px); box-shadow: 0 15px 35px rgba(0, 31, 63, 0.15); border-color: var(--navy); }
 
-/* LET'S CONNECT BOX */
+/* CONNECT BOX */
 .contact-box {
     background: var(--white);
     border: 1px solid var(--border);
-    padding: 40px;
-    border-radius: 12px;
+    padding: 25px;
+    border-radius: 8px;
     box-shadow: var(--shadow);
-    text-align: center;
 }
 
 .contact-box h4 {
-    margin: 0 0 20px;
+    margin: 0 0 15px;
     text-transform: uppercase;
-    font-size: 1.1rem;
+    font-size: 1rem;
     letter-spacing: 1px;
     color: var(--navy);
-    font-weight: 800;
 }
 
 .btn-outline {
